@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./cart-style.css">
+</head>
+
+<body>
+
+    <!-- header start  -->
+    <!-- anchor to the top of the page -->
+    <a name="top"></a>
+    <div id="pageContainer">
+        <!-- logo Amazon & search Bar -->
+
+        <div id="header">
+            <div><img src="SiteLogo1.png" width="20%" height="20%" id="logo"></div>
+            <!-- search bar & drop down menu -->
+            <span>
+
+                <div id="searchBar-searchButton">
+                    <form action="" method="GET">
+                        <div id="dropDownMenu">
+                           <!--  <select name="" id="DropDownItems">
+                                <option value="df">-- All --</option>
+                                <option value="df">Laptops & Phones</option>
+                                <option value="df">Deals</option>
+                                <option value="df">Educational Books</option>
+                                <option value="df">Men's CLothing</option>
+                                <option value="df">TV's</option>
+ -->
+                            </select>
+
+                            <!-- --- search bar ----->
+                            <span><input type="search" style="width: 75vw;" id="searchBar"> </span>
+
+                            <!-- --- search button --- -->
+                            <span id="searchButtonContainer"> <input type="submit" value="" id="searchButton"></span>
+                    </form>
+
+                    <div id="suggestions" hidden></div>
+                </div>
+        </div>
+
+        </span>
+        <div id="headerOtherLinks">
+            <span>
+                <!-- <select name="" id="languageMenu">
+                    <option value="1">EN</option>
+                    <option value="2">AR</option>
+                </select> -->
+                <!-- sign in icon -->
+                <span>
+                    <a href="" id="sign-in-Icon">
+                        <span style="margin-right: 3vw;font-size: large;">Hello.</span>
+                    </a>
+                </span>
+                <!-- orders -->
+                <span id="orders"style="margin-right: 3vw;font-size: large;"> <a href="">orders</a></span>
+                <!-- cart icon -->
+                <span id="cart-icon">
+                    <a href="">Cart<img src="carticon.png" width="40vw" height="40vh" style="position: relative;top: 2vh;"></a>
+                </span>
+
+            </span>
+        </div>
+        <span></span>
+    </div>
+    <!-- nav Bar Categories Items -->
+    <div id="navBar">
+        <nav style="margin-left: 5vw;">
+            <span class="navbarItems"><a href="">Deals</a></span>
+            <span class="navbarItems"><a href="">Laptops & Phones</a></span>
+            <span class="navbarItems"><a href="">Educational Books</a></span>
+            <span class="navbarItems"><a href="">TV's</a></span>
+        </nav>
+        <div id="FreeShipping">
+            <div style="margin-left: 1vw; font-size: larger;font-weight: bold;">Free Shipping</div>
+            <div style="margin-left: 1vw; font-size: large;">on Fulfilled orders</div>
+        </div>
+    </div>
+    <!-- header end -->
+
+
+
+
+
+
+
+
+
+
+    <div class="display-flex-for-all">
+
+
+        <div class="container-for-display-inline-flex">
+
+            <!-- first-container-cart-filled start -->
+
+
+            <!-- first-container-cart-filled end -->
+
+
+            <div class="first-container-cart-filled">
+
+                <p class="shoppingCart">Shopping Cart</p>
+                <a id="select-all-prod-anchor" href="">select all elements</a>
+                <hr>
+              <div id="cartProductsContainer">  
+                <!-- div container for product flex column start -->
+                <div class="productflexrow">
+                    <!-- <input type="checkbox" id="check-box-product">
+                    <img src="./img/bag.jpg">
+                    <div class="inner-details-product">
+                        <p class="name">Mintra School Backpacks For Unisex - Aqua Green</p>
+                        <p class="company">By Sony company</p>
+                        <p class="oldprice">1000$</p>
+                        <p class="status">ships to egypt</p>
+                        <button>Delete</button>
+                    </div>
+                    <p class="innerprice">800$</p> -->
+                </div>
+                <hr>
+
+                <!-- --------------- -->
+                <div class="productflexrow">
+                   <!--  <input type="checkbox" id="check-box-product">
+                    <img src="./img/bag.jpg">
+                    <div class="inner-details-product">
+                        <p class="name">Mintra School Backpacks For Unisex - Aqua Green</p>
+                        <p class="company">By Sony company</p>
+                        <p class="oldprice">1000$</p>
+                        <p class="status">ships to egypt</p>
+                        <button>Delete</button> 
+                    </div>
+                    <p class="innerprice">800$</p>-->
+                </div>
+                <hr>
+
+                <!-- --------------- -->
+                <div class="productflexrow">
+                    <!-- <input type="checkbox" id="check-box-product">
+                    <img src="./img/bag.jpg">
+                    <div class="inner-details-product">
+                        <p class="name">Mintra School Backpacks For Unisex - Aqua Green</p>
+                        <p class="company">By Sony company</p>
+                        <p class="oldprice">1000$</p>
+                        <p class="status">ships to egypt</p>
+                        <button>Delete</button>
+                    </div>
+                    <p class="innerprice">800$</p> -->
+                </div>
+                <hr>
+
+                <!-- --------------- -->
+                <div class="productflexrow">
+                   <!--  <input type="checkbox" id="check-box-product">
+                    <img src="./img/bag.jpg">
+                    <div class="inner-details-product">
+                        <p class="name">Mintra School Backpacks For Unisex - Aqua Green</p>
+                        <p class="company">By Sony company</p>
+                        <p class="oldprice">1000$</p>
+                        <p class="status">ships to egypt</p>
+                        <button>Delete</button>
+                    </div>
+                    <p class="innerprice">800$</p> -->
+                </div>
+                <hr>
+
+                <!-- div container for product flex column end -->
+
+             </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+            <!-- first-container-cart-empty -->
+            <div class="first-container-cart-empty">
+                <p class="first-paragraph">Your Amazon Cart is empty.
+                </p>
+
+                <p class="second-paragraph">
+                    Your shopping basket lives to serve. Give it purpose fill it with groceries, clothing, household
+                    supplies, electronics and more.
+                    Continue shopping on the <a href="#">amazon.eg homepage</a> , learn about <a href="#">Today's
+                        Deals</a>, or visit your <a href="#">Wish List</a>.
+
+
+                </p>
+
+            </div>
+            <!-- first-container-cart-empty -->
+
+
+
+            <!-- second-container-youritems -->
+            <div class="second-container-youritems">
+
+                <p class="youritems">Your items
+                </p>
+                <a href="">No items saved for later
+                </a>
+
+                <a id="second-anchor-buy" href="">Buy it again</a>
+                <hr>
+                <div class="empty-items-container">
+
+                    <p>No items to buy again.
+                    </p>
+                </div>
+            </div>
+            <!-- second-container-youritems -->
+
+
+            <!-- last-paragraph -->
+            <p class="last-paragraph">
+                The price and availability of items at amazon.eg are subject to change. The Cart is a temporary place to
+                store a list of your items and reflects each item's most recent price.
+                <br>
+
+                Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to
+                pay
+            </p>
+            <!-- last-paragraph -->
+
+        </div>
+
+
+
+        <!-- the aside container start -->
+
+
+        <div class="aside">
+
+            <div class="total-to-pay">
+                <p>Subtotal (3 items):2,125.00 EGP </p>
+                <button>proceed to Buy</button>
+            </div>
+
+            <h4>Customers Who Bought Items in Your Recent History Also Bought</h4>
+
+
+
+
+
+            <!-- product card one -->
+            <div class="card-for-product">
+                <img src="./img/1.jpg" alt="">
+
+
+                <div class="container-for-text-and-stars">
+                    <p class="description-for-product"> PENDULINE kids hair…</p> <!--   tile for product -->
+
+                    <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div> <!--   rating stars-->
+
+                    <p class="price">EGP 114.71</p> <!--   price-->
+
+                    <button class="btn-add-to-cart">Add to Cart</button> <!--   btn add to cart -->
+                </div>
+            </div>
+            <!-- product card one  -->
+
+            <!-- product card two -->
+            <div class="card-for-product">
+                <img src="./img/2.jpg" alt="">
+
+
+                <div class="container-for-text-and-stars">
+                    <p class="description-for-product"> PENDULINE kids hair…</p> <!--   tile for product -->
+
+                    <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div> <!--   rating stars-->
+
+                    <p class="price">EGP 114.71</p> <!--   price-->
+
+                    <button class="btn-add-to-cart">Add to Cart</button> <!--   btn add to cart -->
+                </div>
+            </div>
+            <!-- product card two -->
+
+
+            <!-- product card three -->
+            <div class="card-for-product">
+                <img src="./img/3.jpg" alt="">
+
+
+                <div class="container-for-text-and-stars">
+                    <p class="description-for-product"> PENDULINE kids hair…</p> <!--   tile for product -->
+
+                    <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div> <!--   rating stars-->
+
+                    <p class="price">EGP 114.71</p> <!--   price-->
+
+                    <button class="btn-add-to-cart">Add to Cart</button> <!--   btn add to cart -->
+                </div>
+            </div>
+            <!-- product card three -->
+
+
+            <!-- product card four -->
+            <div class="card-for-product">
+                <img src="./img/4.jpg" alt="">
+
+
+                <div class="container-for-text-and-stars">
+                    <p class="description-for-product"> PENDULINE kids hair…</p> <!--   tile for product -->
+
+                    <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div> <!--   rating stars-->
+
+                    <p class="price">EGP 114.71</p> <!--   price-->
+
+                    <button class="btn-add-to-cart">Add to Cart</button> <!--   btn add to cart -->
+                </div>
+            </div>
+            <!-- product card four -->
+
+
+
+        </div>
+        <!-- the aside container end -->
+
+    </div>
+
+    <br> <br>
+
+
+    <!-- carousel-for-products horizontally  -->
+    <div class="container-for-carousel">
+        <h3>Related to items you viewed</h3>
+
+
+
+        <!-- to dispaly flex products -->
+        <div class="carousel-for-products">
+
+
+
+
+            <!-- button to left -->
+            <button class="btn-left" alt="ss"></button>
+            <!-- product card one -->
+            <div class="card-for-carousel-horizontallyproduct">
+                <img src="./img/1.jpg" alt="">
+
+                <!--   tile for product -->
+                <p class="description-for-product">Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko
+                    outlet
+                    Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko outlet</p>
+                <!-- rating stars -->
+                <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div>
+                <!-- price -->
+                <p class="price"><sup>EGP</sup>114.71</p>
+            </div>
+            <!-- product card one  -->
+
+
+            <!-- product card twoo -->
+            <div class="card-for-carousel-horizontallyproduct">
+                <img src="./img/1.jpg" alt="">
+
+                <!--   tile for product -->
+                <p class="description-for-product">Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko
+                    outlet
+                    Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko outlet</p>
+                <!-- rating stars -->
+                <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div>
+                <!-- price -->
+                <p class="price"><sup>EGP</sup>114.71</p>
+            </div>
+            <!-- product card two  -->
+
+            <!-- product card thre  -->
+            <div class="card-for-carousel-horizontallyproduct">
+                <img src="./img/1.jpg" alt="">
+
+                <!--   tile for product -->
+                <p class="description-for-product">Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko
+                    outlet
+                    Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko outlet</p>
+                <!-- rating stars -->
+                <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div>
+                <!-- price -->
+                <p class="price"><sup>EGP</sup>114.71</p>
+            </div>
+            <!-- product card three -->
+
+
+            <!-- product card four -->
+            <div class="card-for-carousel-horizontallyproduct">
+                <img src="./img/1.jpg" alt="">
+
+                <!--   tile for product -->
+                <p class="description-for-product">Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko
+                    outlet
+                    Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko outlet</p>
+                <!-- rating stars -->
+                <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div>
+                <!-- price -->
+                <p class="price"><sup>EGP</sup>114.71</p>
+            </div>
+            <!-- product card four -->
+
+            <!-- product card five -->
+            <div class="card-for-carousel-horizontallyproduct">
+                <img src="./img/1.jpg" alt="">
+
+                <!--   tile for product -->
+                <p class="description-for-product">Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko
+                    outlet
+                    Schneider Electric BVS1000I-GR EASY UPS BVS, 1000VA, Schuko outlet</p>
+                <!-- rating stars -->
+                <div> &#11088;&#11088;&#11088; &#11088; &#9734;</div>
+                <!-- price -->
+                <p class="price"><sup>EGP</sup>114.71</p>
+            </div>
+            <!-- product card five -->
+
+
+
+
+            <!-- button to right -->
+
+            <button class="btn-right"></button>
+
+        </div>
+
+
+    </div>
+
+
+    <hr>
+
+
+
+
+
+
+
+
+    <!-- footer start  --------------------------->
+    </div>
+
+    <!-- information about our site ( footer ) -->
+    <div id="footerContainer">
+        <!-- button back to top -->
+        <div id="backToTop"><a href="#top">Back To Top</a></div>
+        <!-- Site Information in columns -->
+        <div class="fourColumns">
+
+            <div id="column1">
+
+                <div class="fontSize">Get To Know Us</div>
+                <ul>
+                    <li><a href="">About Amazon</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </div>
+
+            <div id="column2">
+
+                <div class="fontSize">Shop with Us</div>
+
+                <ul>
+                    <li><a href="">Your Account</a></li>
+                    <li><a href="">Your Orders</a></li>
+                    <li><a href="">Your Addresses</a></li>
+                    <li><a href="">Your Lists</a></li>
+                </ul>
+
+            </div>
+
+            <div id="column3">
+
+                <div class="fontSize">Make Money with Us</div>
+
+                <ul>
+                    <li><a href="">Sell on Our Site</a></li>
+                    <li><a href="">Fulfillment</a></li>
+
+                </ul>
+            </div>
+
+            <div id="column4">
+
+                <div class="fontSize">Let Us Help You</div>
+
+                <ul>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Shipping & Delivery</a></li>
+                    <li><a href="">Returns & Replacements</a></li>
+                    <li><a href="">Amazon App Download</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- other affiliates links of the site  -->
+    <div id="otherAffiliates">
+        <span class="affiliatelinksStyle"><a href="">Conditions of Use & Sale </a> </span>
+        <span class="affiliatelinksStyle"><a href="">Privacy Notice </a> </span>
+        <span class="affiliatelinksStyle"><a href="">Interest-Based Ads </a> </span>
+        <span class="affiliatelinksStyle"><a>1996-2021, ourSite.com, Inc or its affiliates</span>
+    </div>
+
+    </div>
+
+    <!-- footer end  -->
+
+<script src="cart.js"></script>
+</body>
+
+</html>

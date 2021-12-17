@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <div class="product">
+ 
+        <div class="pic" >
+          <img src="" alt="" id="pic1">
+        </div>
+    
+        <div class="info">
+    
+          <h2 class="name" id="namee"></h2>
+          <p class="company" id="company" ></p>
+          <p class="price" id="price"><del class="oldprice" id="oldprice"></del> </p>
+          <!-- <h4 class="status" id ="status"></h4> -->
+          <h4 class="status" id ="productStatus"></h4>
+          <button>Add to cart</button>
+          
+        </div>
+      </div>
+
+    <script >
+const  data = JSON.parse(localStorage.getItem('product'));
+
+pic1.src = data.image
+namee.innerText = data.name;
+company.innerText = data.company;
+price.insertAdjacentText("beforeend",data.price) 
+oldprice.innerText = data.oldprice;
+console.log(data.status)
+productStatus.innerText = data.status;
+/* var button = document.getElementsByTagName("button")
+console.log(button)
+button[0].addEventListener("click",(e)=>
+{
+  e.target
+}) */
+    </script>
+</body>
+</html>

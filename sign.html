@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div class="grid">
+        
+        
+      
+        <div class="signin">
+          
+           <form id="form" action="HomePage.html" method="get" onsubmit="return checkValidation()" >
+         <label for="username">Username<span> *</span></label>
+
+         <input id="username" type="text" placeholder="Type your username" name="Fullname" value=""  required></input>
+        <label id="validation"></label>
+
+            <br>
+        <label for="password">Password<span> *</span></label>
+         <input id="password" type="Password" placeholder="Type your password" required></input>
+            
+         <label id="invalidpass"></label>
+      
+      
+        <button type="submit">Sign-in</button>
+
+        <script src="sign.js"></script>
+         
+       </form>
+        </div>
+      </div>
+</body>
+</html>

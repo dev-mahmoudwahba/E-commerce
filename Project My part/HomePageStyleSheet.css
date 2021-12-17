@@ -1,0 +1,251 @@
+/* colors are #f98111 orange
+              #607D8B gray
+              #ffffff white  */
+body
+{
+    margin: 0px;
+}
+#pageContainer
+{
+    display: grid;
+    /* border: 2px solid #000000; */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(21, min-content);
+}
+#logo
+{
+
+    border-radius: 50%;
+    position: relative;
+    left: 1vw;
+    top: 3vh;
+   
+}
+#header
+{
+    display: flex;
+    justify-content: space-between;
+   /* border: 2px solid black; */
+     grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: #263749;
+    align-items: center;
+}
+
+/* disable underline from the links */
+a { text-decoration: none; color: white;} 
+
+#searchBar
+{
+    
+    max-width: 25vw;
+    width: 100%;
+    height: 5vh;
+    
+    border-radius:1vw ;
+
+}
+#searchButton
+{
+    width: 5vw;
+    height: 10vh;
+     
+    position: relative;
+    top: 7.5vh;
+    left: 1vw;
+    background: url('search icon.png') no-repeat ;
+    background-size: 2vw;
+    border: none;
+
+}
+#searchBar-searchButton
+{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 0.1vw;
+    left: 25vw;
+/*     border: 3px solid black;
+ */
+}
+
+#searchButtonContainer
+{
+     position: relative;
+     right: 1vw;
+     bottom: 0.1vh;
+     
+}
+#headerOtherLinks
+{
+    
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    width: auto;
+    height: auto;
+}
+#navBar
+{
+   
+    top: 16vh;
+
+    display: flex;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    /* border: 3px solid black; */
+    background-color: #232f3e;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    
+
+}
+.navbarItems
+{
+    margin: 3vw;
+    position: relative;
+    left: 8vw;
+}
+
+#FreeShipping
+{
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1vw;
+    position: relative;
+    background-color: #f9e2b4;
+  
+    box-sizing: 50vw 10vh;
+    
+    
+}
+
+#dealImg 
+{
+    grid-column: 1/5;
+    grid-row: 3/5;
+/*     border: 3px solid black;
+ */}
+
+/* the 8 products or catogeries make flex container and then grid container */
+#categoriesGridContainer
+{
+    display: grid;
+    grid-gap: 1vw 2vh;
+    grid-column: 1/5;
+    grid-row: 5/5;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    /* border: 3px solid black; */
+    font-size: x-large;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-color: #ecefef
+    ;
+}
+ .categoriesImages
+{
+    position: relative;
+    top:5vh;
+    height:100%;
+    max-height: 20vh;
+    max-width: 15vw;
+}
+/* #wordsAndImagesInCategory
+{
+    width: 100px;
+    height: 200px;
+} */
+
+.CategoriesPlaceHolder
+{
+    display: flex;
+    padding:1vw;
+    height: 40vh;
+/*     border: 3px solid black;
+ */    background-color: white;
+}
+
+
+#footerContainer
+{
+    grid-column: 1/5;
+    grid-row: 6/span 12;
+    background-color:#607D8B ;
+}
+
+#backToTop
+{
+    display: flex;
+    grid-column: 1/5;
+    grid-row:8/8;
+    justify-content: center;
+    padding:1vw;
+    background-color: #282c3c;
+    font-size: x-large;
+}
+.fourColumns
+{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 40vh;
+    position: relative;
+    top: 5vw;
+
+}
+
+#column1
+{
+    grid-column: 2/span 3;
+    grid-row: 1/ span 5;
+}
+#column2
+{
+    grid-column: 6/span 2;
+    grid-row: 1/ span 5;
+}
+
+#column3
+{
+    grid-column: 9/span 3;
+    grid-row: 1/ span 5;
+}
+
+#column4
+{
+    grid-column: 13/span 3 ;
+    grid-row: 1/ span 5;
+}
+
+ul 
+{
+    display: inline;
+    list-style-type:none;
+    text-align:left;
+    position: relative;
+    left: 0;
+}
+.fontSize 
+{
+    font-size: x-large;font-weight: bold;
+}
+#otherAffiliates
+{
+    display: flex;
+    grid-column: 1/span 5 ;
+    grid-row: 19/ span 3;
+/*     border: 3px solid black;
+ */    background-color: #181c24;
+    color: white;
+    justify-content: center;
+    
+}
+
+.affiliatelinksStyle
+{
+    margin: 1vw;
+}

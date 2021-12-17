@@ -1,0 +1,46 @@
+*{font-family:arial;}
+.grid{display:grid;
+grid-template-columns:repeat(1,27vw);
+gap:18vw;
+  grid-auto-flow: row;
+  justify-content:center;
+margin:auto;}
+
+input {margin-bottom:5vh; margin-top:5vhx;}
+label{
+ font-size:large;
+  line-height:10vh;
+  font-weight:520;
+  color:#222222;
+ 
+}
+ span{color: red;}
+ input , button
+{
+  width:22vw;
+  height:8vh;
+  border: none;
+  padding-left:1vw;
+  padding-right:1vw;
+  border-radius:5px;
+  border-bottom:1.5px solid #3334;
+  overflow:hidden;
+  font-size:1rem;
+  
+}
+input:focus{outline: none}
+
+button
+{
+  width:23vw;
+  background-color:#607D8B;
+  text-align:center;
+  color:white;
+  font-weight:500;
+  font-size:large;
+  line-height:5vh;
+  cursor: pointer;
+}
+
+.signin button{margin-top:23.5vh;}
+.signin , .signup{background-color:#f2efed;padding:2vw;}

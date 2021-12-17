@@ -1,0 +1,89 @@
+{ 
+    "products":[
+        {
+        "id":"1",
+        "image":"https://images.unsplash.com/photo-1541807084-5c52b6b3adef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "name": "Pro-book",
+        "company":"By HP company",
+        "oldprice":"1000$",
+       "price":"800$",
+       "status":"ships to egypt"
+    },
+     
+
+   
+        {
+            "id": "2",
+            "image":"https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/17_7706/pdp/laptops-inspiron-17-7706-pdp-gallery504x350.jpg?fmt=jpg&wid=504&hei=350",
+            "name": "Dell latitude",
+            "company":"By Dell company",
+            "oldprice":"1000$",
+           "price":"700$",
+           "status":"ships to egypt"
+        },
+    
+  
+        {
+            "id": "3",
+            "image":"https://cdn.thecoolist.com/wp-content/uploads/2009/10/sony-vaio-x_6.jpg",
+            "name": "Lenovo V15",
+            "company":"By Lenovo company",
+            "oldprice":"1000$",
+           "price":"750$",
+           "status":"ships to egypt"
+        },
+        {
+            "id": "4",
+            "image":"https://etawfeer.com/wp-content/uploads/2021/03/4zu3_Lenovo_Ideapad_S145_15API-480x480.jpg",
+            "name": "Sony",
+            "company":"By Sony company",
+            "oldprice":"1000$",
+           "price":"800$",
+           "status":"ships to egypt"
+        },
+        {
+            "id":"5",
+            "image":"https://specifications-pro.com/wp-content/uploads/2020/04/iPhone-12-2.jpg",
+            "name": "Iphone 12",
+            "company":"By Apple company",
+            "oldprice":"800$",
+           "price":"600$",
+           "status":"ships to egypt"
+        },
+         
+    
+       
+            {
+                "id": "6",
+                "image":"https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.small_2x.jpg",
+                "name": "Iphone 13 pro",
+                "company":"By Apple company",
+                "oldprice":"1500$",
+               "price":"1200$",
+               "status":"ships to egypt"
+            },
+        
+      
+            {
+                "id": "7",
+                "image":"https://images.samsung.com/eg/smartphones/galaxy-s21/buy/s21_family_kv_mo_img.jpg",
+                "name": "Samsung",
+                "company":"By Samsung company",
+                "oldprice":"700$",
+               "price":"560$",
+               "status":"ships to egypt"
+            },
+            {
+                "id": "8",
+                "image":"https://www.sony-asia.com/image/31f9ce4e17ec8e22fe04a067c6a9833b?fmt=pjpeg&wid=660&bgcolor=F1F5F9&bgc=F1F5F9",
+                "name": "Sony",
+                "company":"By Sony company",
+                "oldprice":"1000$",
+               "price":"800$",
+               "status":"ships to egypt"
+            }
+    
+    
+    ]
+    
+}

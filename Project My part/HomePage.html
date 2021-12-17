@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page like Amazon's</title>
+    <link rel="stylesheet" href="HomePageStyleSheet.css">
+   
+</head>
+<body>
+    <!-- anchor to the top of the page -->
+    <a name="top"></a>
+    <div id="pageContainer">
+        <!-- logo Amazon & search Bar -->
+        
+        <div id="header">
+            <div><img src="SiteLogo1.png" width="20%" height="20%" id="logo"></div>
+            <!-- search bar & drop down menu -->
+            <span>
+               
+                       <div id="searchBar-searchButton">
+                            <form action="" method="GET" >
+                              <div id="dropDownMenu">
+                                    <select name="" id="DropDownItems">
+                                        <option value="df">-- All --</option>
+                                        <option value="df">Laptops & Phones</option>
+                                        <option value="df">Deals</option>
+                                        <option value="df">Educational Books</option>
+                                        <option value="df">Men's CLothing</option>
+                                        <option value="df">TV's</option>
+                                    
+                                    </select>
+                                
+                                <!-- --- search bar -----> 
+                                <span><input type="search" style="width: 50vw;" id="searchBar"> </span>
+                            
+                                <!-- --- search button --- -->
+                                <span id="searchButtonContainer"> <input type="submit" value="" id="searchButton"></span>
+                        </form>  
+                           
+                                <div id="suggestions" hidden></div>
+                        </div>
+                    </div>
+                
+            </span>
+            <div id="headerOtherLinks">
+                 <span>
+                    <select name="" id="languageMenu">
+                        <option value="1">EN</option>
+                        <option value="2">AR</option>
+                    </select>
+                    <!-- sign in icon -->
+                    <span>
+                        <a href="" id="sign-in-Icon"> 
+                            <span>Hello, Sign in please.</span>
+                        </a>
+                    </span>
+                    <!-- orders -->
+                    <span id="orders"> <a href="">orders</a></span>
+                    <!-- cart icon -->                       
+                    <span id="cart-icon">
+                        <a href=""><img src="carticon.png" width="40vw" height="40vh"></a>
+                    </span>
+                            
+                </span>
+            </div>
+            <span></span>  
+        </div>
+        <!-- nav Bar Categories Items -->
+        <div id="navBar">
+            <nav style="margin-left: 5vw;">
+                <span class="navbarItems"><a href="">Deals</a></span>
+                <span class="navbarItems"><a href="">Laptops & Phones</a></span>
+                <span class="navbarItems"><a href="">Educational Books</a></span>
+                <span class="navbarItems"><a href="">TV's</a></span>
+            </nav>
+            <div id="FreeShipping">
+                <div style="margin-left: 1vw; font-size: larger;font-weight: bold;">Free Shipping</div>
+                <div style="margin-left: 1vw; font-size: large;">on Fulfilled orders</div>
+            </div>
+        </div>       
+        <!-- image for Deals like Amazon's and make it slider to control the images-->
+        <div id="dealImg"><img src="deal image.jpg" width="100%" height="100%"></div> 
+        <!-- 8 place holders for the products and categories 4 rows X 4 cols -->
+        <div id="categoriesGridContainer">
+            <!-- <div id="categoriesFlexContainer"> -->
+
+                <!-- category 1 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                        <div class="wordsAndImagesInCategory">Deals</div>
+                        <div><img class="categoriesImages" src="Categories Images/deals.png" 
+                            ></div>
+                   </div> 
+                </div>
+                <!-- category 2 -->
+                <div class="CategoriesPlaceHolder">
+                   <div>
+                        <div >Laptops </div>
+                        <div><img class="categoriesImages" src="Categories Images/laptops (1).png" 
+                           ></div>
+                   </div> 
+                    
+                </div>
+                <!-- category 3-->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Smart Phones</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/phones.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                 <!-- category 4 -->
+                 <div class="CategoriesPlaceHolder">
+                    <div>
+                        <div>Watches</div>
+                        <div><img class="categoriesImages" src="Categories Images/watches.png" >
+                        </div>
+                   </div> 
+                </div>
+                <!-- category 5 -->
+                <div class="CategoriesPlaceHolder">
+                   <div>
+                        <div >TV's</div><!-- don't use this class if there is nothing wrong with the image -->
+                        <div><img class="categoriesImages" src="Categories Images/TV.png" 
+                            ></div>
+                   </div> 
+                </div>
+                <!-- category 6 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Glasses</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/sunglasses.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                 <!-- category 7 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Men's Clothing</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/clothes.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                 <!-- category 8-->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Beauty & Personal Care</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/beauty.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                  <!-- category 9-->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Books</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/books.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                  <!-- category 10-->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Health & Fitness</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/gym.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                 <!-- category 11-->
+                 <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Appliances</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/appliances.png" 
+                             width="120%" height="130%"></div>
+                    </div> 
+                 </div>
+                  <!-- category 12-->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Grocery</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/fruit.png" 
+                            width="160%" height="160%" ></div>
+                    </div> 
+                 </div>
+                  <!-- category 13-->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Office Furniture</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/office.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                 <!-- category 14-->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Smart Phones</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/phones.png" 
+                             ></div>
+                    </div> 
+                 </div>
+
+
+
+<!-- --------------------------Filler categories-------------------------------------------------------->
+
+                 <!-- category 2 -->
+                 <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Laptops & Phones</div>
+                         <div><img class="categoriesImages" src="Categories Images/laptops (1).png" 
+                            ></div>
+                    </div> 
+                     
+                 </div>
+                <!-- category 1 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                        <div class="wordsAndImagesInCategory">Deals</div>
+                        <div><img class="categoriesImages" src="Categories Images/deals.png" 
+                            ></div>
+                   </div> 
+                </div>
+               
+                <!-- category 4 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >TV's</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/TV.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                 <!-- category 3 -->
+                 <div class="CategoriesPlaceHolder">
+                    <div>
+                        <div>Watches</div>
+                        <div><img class="categoriesImages" src="Categories Images/watches.png" >
+                        </div>
+                   </div> 
+                </div>
+                
+                <!-- category 4 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >TV's</div><!-- don't use this class if there is nothing wrong with the image -->
+                         <div><img class="categoriesImages" src="Categories Images/TV.png" 
+                             ></div>
+                    </div> 
+                 </div>
+                <!-- category 3 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                        <div>Watches</div>
+                        <div><img class="categoriesImages" src="Categories Images/watches.png" >
+                        </div>
+                </div> 
+                </div>
+                <!-- category 2 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                         <div >Laptops & Phones</div>
+                         <div><img class="categoriesImages" src="Categories Images/laptops (1).png" 
+                            ></div>
+                    </div> 
+                     
+                 </div>
+                  <!-- category 1 -->
+                <div class="CategoriesPlaceHolder">
+                    <div>
+                        <div class="wordsAndImagesInCategory">Deals</div>
+                        <div><img class="categoriesImages" src="Categories Images/deals.png" 
+                            ></div>
+                   </div> 
+                </div>
+
+                <!-- </div> -->
+<!-- --------------------------Filler categories-------------------------------------------------------->
+
+        </div>
+        
+        <!-- information about our site ( footer ) -->
+        <div id="footerContainer">
+            <!-- button back to top -->
+            <div id="backToTop"><a href="#top">Back To Top</a></div> 
+            <!-- Site Information in columns -->
+            <div class="fourColumns">
+
+                <div id="column1">
+
+                    <div class="fontSize">Get To Know Us</div>
+                    <ul>
+                        <li><a href="">About Amazon</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div id="column2">
+
+                    <div class="fontSize">Shop with Us</div>
+                        
+                        <ul>
+                            <li><a href="">Your Account</a></li>
+                            <li><a href="">Your Orders</a></li>
+                            <li><a href="">Your Addresses</a></li>
+                            <li><a href="">Your Lists</a></li>
+                        </ul>
+                    
+                </div>
+
+                <div id="column3">
+
+                    <div class="fontSize">Make Money with Us</div>
+                        
+                    <ul>
+                        <li><a href="">Sell on Our Site</a></li>
+                        <li><a href="">Fulfillment</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div id="column4">
+
+                    <div class="fontSize">Let Us Help You</div>
+                        
+                        <ul>
+                            <li><a href="">Help</a></li>
+                            <li><a href="">Shipping & Delivery</a></li>
+                            <li><a href="">Returns & Replacements</a></li>
+                            <li><a href="">Amazon App Download</a></li>
+                        </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- other affiliates links of the site  -->
+        <div id="otherAffiliates">
+            <span class="affiliatelinksStyle"><a href="">Conditions of Use & Sale </a>   </span>
+            <span class="affiliatelinksStyle"><a href="">Privacy Notice           </a>  </span>
+            <span class="affiliatelinksStyle"><a href="">Interest-Based Ads       </a>  </span>
+            <span class="affiliatelinksStyle"><a>1996-2021, ourSite.com, Inc or its affiliates</span>
+        </div>
+
+    </div>
+<script src="functionalities.js"></script>
+</body>
+</html>

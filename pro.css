@@ -1,0 +1,262 @@
+.divul {
+    width: 67%;
+}
+
+.mainCont {
+    width: 75%;
+}
+
+.dives,
+.divul {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+aside {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+article {
+    border-bottom: 2px gray solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    height: 65%;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    width: 25%;
+    height: 65%;
+}
+
+.img {
+    width: 100%;
+    height: 39%;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    ;
+}
+
+.img1 {
+    width: 100%;
+    height: 191px;
+     margin-bottom: 30px;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.star {
+    color: gold;
+}
+
+.link1 {
+    color: rgb(98, 148, 173);
+    text-decoration: none;
+}
+
+.link1:hover {
+    color: #f98111;
+}
+
+.divall {
+    width: 100%;
+    height: 336px;
+    line-height: 7px;
+}
+
+.p1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 1px;
+    line-height: 22px;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    color: #000;
+    padding-top: 10px;
+    height: 30%;
+}
+
+.p1:hover {
+    color: #f98111;
+}
+
+.price {
+    text-decoration-line: line-through;
+    font-size: medium;
+}
+
+.dis {
+    font-size: x-large;
+}
+
+.only {
+    color: rgb(243, 0, 49);
+    font: caption;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.more,
+.ship {
+    font-size: smaller;
+    font: caption;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray
+}
+
+.ship {
+    font-size: smaller;
+    margin: 0;
+}
+
+ppp {
+    color: #f98111;
+    color: #607D8B;
+    color: gray;
+}
+
+.nostar {
+    color: gray;
+}
+
+.up {
+    text-decoration: none;
+    color: #000;
+}
+
+.up:hover {
+    color: #f98111;
+}
+
+.divstar {
+    text-align: left;
+    font-size: small;
+}
+
+.less {
+    font-size: small;
+}
+
+ul {
+    text-align: left;
+    font-size: medium;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.li {
+    color: #000;
+    text-decoration: none;
+}
+
+.li:hover {
+    color: #f98111;
+}
+
+.lii {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font: small;
+}
+
+.lii:hover {
+    color: #f98111;
+}
+
+.aprice {
+    font: smaller;
+    padding-top: 10px;
+}
+
+.num {
+    padding-top: 13px;
+}
+
+.number {
+    width: 16%;
+    height: 29%;
+    padding: 4px;
+}
+
+
+
+.divjason {
+    width: 75%;
+    height: 100%;
+    border-bottom: 2px solid gray;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: left;
+    margin-bottom: 2vh
+}
+
+.dives,
+.divul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img2 {
+    width: 16vw;
+    height: 90%;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.imgg {
+    width: 90%;
+    height: 40vh;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-bottom: 3px;
+}
+
+.divall2 {
+    width: 85%;
+    height: 100%;
+}
+
+.p1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 1px;
+    line-height: 22px;
+    display: inline;
+    text-decoration: none;
+    width: 100%;
+    color: #000;
+    padding-top: 10px;
+    height: 20vh;
+    overflow: hidden;
+}
+
+.p1:hover {
+    color: #f98111;
+}
+
+.products {
+    /*  display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    gap: 2vw;
+    grid-auto-flow: row;
+    justify-content: center;
+    */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3;*/
+    padding: 10px;
+}

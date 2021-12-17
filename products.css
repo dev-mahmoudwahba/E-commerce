@@ -1,0 +1,42 @@
+*{font-family:arial;}
+span{color:blue;}
+del{color:gray;}
+button{ border:none; font-size:1.4rem;
+background-color:#f98111;
+color:white;
+ border-radius:5px;
+  width:20vw;
+  height:8vh;
+  
+}
+i {font-size:40px; color:#6CC091;}
+h4
+{
+  width:9vw;
+  border:1px grove ;
+  border-radius:5px;
+  background-color:#607D8B;
+  color: white;
+  padding:5px;
+  
+}
+.products{display:grid;
+grid-template-columns:repeat(auto-fill,350px);
+gap:2vw;
+  grid-auto-flow: row;
+  justify-content:center;
+  
+}
+.product{
+  border-radius:3px;
+  border: 1px solid rgba(202, 202, 202, 0.925);
+  height:100vh;
+}
+
+.pic{height:60vh; overflow: hidden;}
+.info{ padding:10px;}
+
+
+.oldprice{
+  text-decoration: line-throughi;
+}

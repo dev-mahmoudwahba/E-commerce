@@ -1,0 +1,275 @@
+
+   { 
+      
+    "laptops":[
+        {
+        "id":"1",
+        "image":"https://images.unsplash.com/photo-1541807084-5c52b6b3adef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "name": "Pro-book",
+        "company":"By HP company",
+        "oldprice":"1000$",
+       "price":"800$",
+       "status":"ships to egypt"
+    },
+     
+
+   
+        {
+            "id": "2",
+            "image":"https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/17_7706/pdp/laptops-inspiron-17-7706-pdp-gallery504x350.jpg?fmt=jpg&wid=504&hei=350",
+            "name": "Dell latitude",
+            "company":"By Dell company",
+            "oldprice":"1000$",
+           "price":"700$",
+           "status":"ships to egypt"
+        },
+    
+  
+        {
+            "id": "3",
+            "image":"https://cdn.thecoolist.com/wp-content/uploads/2009/10/sony-vaio-x_6.jpg",
+            "name": "Lenovo V15",
+            "company":"By Lenovo company",
+            "oldprice":"1000$",
+           "price":"750$",
+           "status":"ships to egypt"
+        },
+        {
+            "id": "4",
+            "image":"https://etawfeer.com/wp-content/uploads/2021/03/4zu3_Lenovo_Ideapad_S145_15API-480x480.jpg",
+            "name": "Sony",
+            "company":"By Sony company",
+            "oldprice":"1000$",
+           "price":"800$",
+           "status":"ships to egypt"
+        }
+        
+    
+     
+    ] ,
+
+    "phones":[
+        {
+            "id":"5",
+            "image":"https://specifications-pro.com/wp-content/uploads/2020/04/iPhone-12-2.jpg",
+            "name": "Iphone 12",
+            "company":"By Apple company",
+            "oldprice":"800$",
+           "price":"600$",
+           "status":"ships to egypt"
+        },
+         
+    
+       
+            {
+                "id": "6",
+                "image":"https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.small_2x.jpg",
+                "name": "Iphone 13 pro",
+                "company":"By Apple company",
+                "oldprice":"1500$",
+               "price":"1200$",
+               "status":"ships to egypt"
+            },
+        
+      
+            {
+                "id": "7",
+                "image":"https://images.samsung.com/eg/smartphones/galaxy-s21/buy/s21_family_kv_mo_img.jpg",
+                "name": "Samsung",
+                "company":"By Samsung company",
+                "oldprice":"700$",
+               "price":"560$",
+               "status":"ships to egypt"
+            },
+            {
+                "id": "8",
+                "image":"https://www.sony-asia.com/image/31f9ce4e17ec8e22fe04a067c6a9833b?fmt=pjpeg&wid=660&bgcolor=F1F5F9&bgc=F1F5F9",
+                "name": "Sony",
+                "company":"By Sony company",
+                "oldprice":"1000$",
+               "price":"800$",
+               "status":"ships to egypt"
+            }
+     
+    ],
+
+    "cosmetics":[
+        {
+        "id":"9",
+        "image":"https://www.flormar.com/UPLOAD/Flormar/mobile_image_1/thumb/0212093-GE02_small.jpg",
+        "name": "Deep-Liner",
+        "company":"By Amanda",
+        "oldprice":"60$",
+       "price":"40$",
+       "status":"ships to egypt"
+    },
+     
+
+   
+        {
+            "id": "10",
+            "image":"https://www.flormar.com/UPLOAD/Flormar/mobile_image_1/thumb/0111034-040_small.jpg",
+            "name": "Concealer",
+            "company":"By Loreal",
+            "oldprice":"90$",
+           "price":"70$",
+           "status":"ships to egypt"
+        },
+    
+  
+        {
+            "id": "11",
+            "image":"https://static.wikia.nocookie.net/beauty-lifestyle/images/5/5b/Under_My_Plum_Extra_Dimension_Blush.jpg/revision/latest/top-crop/width/360/height/450?cb=20210305052058",
+            "name": "Blusher",
+            "company":"By Faces",
+            "oldprice":"70$",
+           "price":"55$",
+           "status":"ships to egypt"
+        },
+        {
+            "id": "12",
+            "image":"https://www.flormar.com/UPLOAD/Flormar/mobile_image_1/thumb/0717026-001_small.jpg",
+            "name": "Eye-Liner",
+            "company":"By Mazaya",
+            "oldprice":"30$",
+           "price":"25$",
+           "status":"ships to egypt"
+        },
+        {
+            "id":"13",
+            "image":"https://www.flormar.com/UPLOAD/Flormar/mobile_image_1/thumb/31000107-002_01_small.jpg",
+            "name": "Foundation",
+            "company":"By Flormar",
+            "oldprice":"80$",
+           "price":"67$",
+           "status":"ships to egypt"
+        },
+         
+    
+       
+            {
+                "id": "14",
+                "image":"https://m.media-amazon.com/images/I/71LZmQeCCsL._AC_SS450_.jpg",
+                "name": "Body lotion",
+                "company":"By Bath&body works",
+                "oldprice":"30$",
+               "price":"15$",
+               "status":"ships to egypt"
+            }
+        
+      
+
+    
+     
+    ],
+
+
+    "watches":[
+        {
+        "id":"15",
+        "image":"https://tommy-europe.scene7.com/is/image/TommyEurope/MWM1791725_000_main?$main$",
+        "name": "Tommy",
+        "company":"By Tommy Hilfiger",
+        "oldprice":"1000$",
+       "price":"800$",
+       "status":"ships to egypt"
+    },
+     
+
+   
+        {
+            "id": "16",
+            "image":"https://pa.namshicdn.com/product/85/7392/v5/1-web-desktop-list.jpg",
+            "name": "White watch",
+            "company":"By calvin klein",
+            "oldprice":"200$",
+           "price":"150$",
+           "status":"ships to egypt"
+        },
+    
+  
+        {
+            "id": "17",
+            "image":"https://www.tissotwatches.com/media/catalog/product/cache/08bb556fb186a1d87d603dff4b7131da/T/0/T063.610.36.038.00_R_1.png",
+            "name": "Tissot",
+            "company":"By Tissot",
+            "oldprice":"1000$",
+           "price":"750$",
+           "status":"ships to egypt"
+        },
+        {
+            "id":"18",
+            "image":"https://cdn.shopify.com/s/files/1/2705/0864/products/michael_kors.001_7c9c098d-b25c-4e21-aa0e-b7f3d0d83cab.jpg?v=1572275348",
+            "name": "Michael kors",
+            "company":"By Michael kors",
+            "oldprice":"1000$",
+           "price":"800$",
+           "status":"ships to egypt"
+        }
+       
+    
+     
+    ],
+
+    "TVs":[
+        {
+        "id":"19",
+        "image":"https://media.btech.com/media/catalog/product/cache/9b0852774e0366824b8bdce90be8b1bf/p/4/p4.png",
+        "name": "Black Tv",
+        "company":"By panasonic",
+        "oldprice":"1000$",
+       "price":"800$",
+       "status":"ships to egypt"
+    },
+     
+
+   
+        {
+            "id": "20",
+            "image":"https://www.lg.com/eg_en/images/tvs/md05250703/gallery/medium01.jpg",
+            "name": "LG TV",
+            "company":"By LG company",
+            "oldprice":"1000$",
+           "price":"700$",
+           "status":"ships to egypt"
+        },
+    
+  
+        {
+            "id": "21",
+            "image":"https://images.samsung.com/is/image/samsung/levant-ar-fhd-t5300-ua43t5300auxtw-frontblack-229897491?$720_576_PNG$",
+            "name": "Samsung TV",
+            "company":"By Sumsung company",
+            "oldprice":"1000$",
+           "price":"750$",
+           "status":"ships to egypt"
+        },
+        {
+            "id": "22",
+            "image":"https://www.techinn.com/f/13819/138192974/sony-kd43x81j-43-4k-led-tv.jpg",
+            "name": "Sony",
+            "company":"By Sony company",
+            "oldprice":"1000$",
+           "price":"800$",
+           "status":"ships to egypt"
+        },
+        {
+            "id":"23",
+            "image":"https://www.raneen.com/media/catalog/product/1/6/1631549086_img_9582_wiyb8wvucxwtfhla.jpg?width=600&height=600&store=en&image-type=image",
+            "name": "Jac",
+            "company":"By Jac company",
+            "oldprice":"800$",
+           "price":"600$",
+           "status":"ships to egypt"
+        }
+        
+      
+            
+         
+    
+     
+    ]
+
+    
+
+}
